@@ -1,0 +1,108 @@
+{
+  "source": {
+    "api": "Wikimedia REST API - pageviews per article",
+    "project": "en.wikipedia",
+    "access": "all-access",
+    "agent": "user (bots excluded)",
+    "license": "CC0 1.0",
+    "window": "2022-11-01 .. 2026-09-30"
+  },
+  "common_fit_window": [
+    "2023-07-01",
+    "2024-08-31"
+  ],
+  "coverage": {
+    "Artificial_intelligence": {
+      "first_day": "2022-11-01",
+      "last_day": "2026-09-30",
+      "n_days": 1430,
+      "mean_daily_views": 13647,
+      "monthly_churn_sd_log": 0.137
+    },
+    "ChatGPT": {
+      "first_day": "2022-12-05",
+      "last_day": "2026-09-30",
+      "n_days": 1396,
+      "mean_daily_views": 98448,
+      "monthly_churn_sd_log": 0.323
+    },
+    "Large_language_model": {
+      "first_day": "2023-02-13",
+      "last_day": "2026-09-30",
+      "n_days": 1326,
+      "mean_daily_views": 3600,
+      "monthly_churn_sd_log": 0.12
+    }
+  },
+  "articles": {
+    "Artificial_intelligence": {
+      "peak_day": "2023-07-17",
+      "peak_views_per_day": 25618,
+      "trough_day": "2024-12-24",
+      "trough_views_per_day": 8227,
+      "pct_change_peak_to_trough": -67.9,
+      "decay_slope_per_day_common_window": -0.001994,
+      "decay_r2_common_window": 0.726,
+      "half_life_days": 347.6,
+      "half_life_ci95_bootstrap": [
+        292.9,
+        449.9
+      ],
+      "trough_month_2024": [
+        "2024-07-01",
+        9156
+      ],
+      "peak_month_2025": [
+        "2025-02-01",
+        13045
+      ],
+      "rebound_2025_vs_2024": 1.42
+    },
+    "ChatGPT": {
+      "peak_day": "2023-04-01",
+      "peak_views_per_day": 347289,
+      "trough_day": "2024-08-12",
+      "trough_views_per_day": 17229,
+      "pct_change_peak_to_trough": -95.0,
+      "decay_slope_per_day_common_window": -0.002691,
+      "decay_r2_common_window": 0.534,
+      "half_life_days": 257.6,
+      "half_life_ci95_bootstrap": [
+        195.1,
+        478.4
+      ],
+      "trough_month_2024": [
+        "2024-08-01",
+        20898
+      ],
+      "peak_month_2025": [
+        "2025-06-01",
+        174755
+      ],
+      "rebound_2025_vs_2024": 8.36
+    },
+    "Large_language_model": {
+      "peak_day": "2023-05-08",
+      "peak_views_per_day": 5603,
+      "trough_day": "2024-12-28",
+      "trough_views_per_day": 2572,
+      "pct_change_peak_to_trough": -54.1,
+      "decay_slope_per_day_common_window": -0.000141,
+      "decay_r2_common_window": 0.013,
+      "half_life_days": 4919.5,
+      "half_life_ci95_bootstrap": [
+        1311.1,
+        75529.0
+      ],
+      "trough_month_2024": [
+        "2024-08-01",
+        2892
+      ],
+      "peak_month_2025": [
+        "2025-01-01",
+        4396
+      ],
+      "rebound_2025_vs_2024": 1.52
+    }
+  }
+}
